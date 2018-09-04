@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: junitTest.Test1
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 1, Errors: 1, Skipped: 0, Time elapsed: 0.03 sec <<< FAILURE! - in junitTest.Test1
+testLogic4  Time elapsed: 0.01 sec  <<< FAILURE!
+org.junit.internal.ArrayComparisonFailure: logic4 is incorrect: arrays first differed at element [0]; expected:<2> but was:<3>
+	at junitTest.Test1.testLogic4(Test1.java:87)
+Caused by: java.lang.AssertionError: expected:<2> but was:<3>
+	at junitTest.Test1.testLogic4(Test1.java:87)
+
+testExceptionIsThrown  Time elapsed: 0 sec  <<< ERROR!
+java.security.InvalidParameterException
+	at junitTest.Test1.testExceptionIsThrown(Test1.java:93)
+
